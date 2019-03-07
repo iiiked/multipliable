@@ -9,14 +9,14 @@ test('detects whether numbers multipliable', () => {
 });
 
 test('works with single-digit input', () => {
-  expect(multipliable('A', 'A', 0)).toBe(true);
-  expect(multipliable('A', 'A', 25)).toBe(true);
-  expect(multipliable('A', 'A', 2)).toBe(false);
+  expect(multipliable('A', 'A', '0')).toBe(true);
+  expect(multipliable('A', 'A', '25')).toBe(true);
+  expect(multipliable('A', 'A', '2')).toBe(false);
 });
 
-test('account for case of the input', () => {
-  expect(multipliable('A', 'a', 2)).toBe(true);
-  expect(multipliable('a', 'a', 2)).toBe(false);
+test('accounts for case of the input', () => {
+  expect(multipliable('A', 'a', '2')).toBe(true);
+  expect(multipliable('a', 'a', '2')).toBe(false);
 });
 
 /********** EXTRA CREDIT ONLY **********
