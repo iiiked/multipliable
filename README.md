@@ -17,4 +17,10 @@ multipliable('AB', 'AB', '100'); // true
 * Run `npm test` and if OK, add, commit and push it to your github
 * Make a pull request
 
+### Extra credit
+If you feel it was too easy, go to `index.test.js` and try uncommenting extra credit test:
+```
+multipliable('CODEWORKS', 'AWESOME', '957443700165410') // true
+```
+
 ### Good Luck!
