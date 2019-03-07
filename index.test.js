@@ -1,6 +1,7 @@
 const multipliable = require('./index');
 
 test('detects whether numbers multipliable', () => {
+  expect(multipliable('AB', 'C', '21')).toBe(true);
   expect(multipliable('AB', 'AB', '100')).toBe(true);
   expect(multipliable('AAA', 'BBB', '110889')).toBe(true);
   expect(multipliable('DCA', 'DBCF', '1000000')).toBe(true);
