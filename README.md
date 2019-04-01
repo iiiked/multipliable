@@ -1,6 +1,6 @@
 # tp-multipliable
 
-Hi coders, today you will need to write a function `multipliable` that will take 3 STRING arguments, like this `'AB', 'AB', '100'`, where letters A...Z will represent unique single-digit number 0...9, and will need to return whether multiplying those composed numbers will give you a result.
+Hi coders, today you will need to write a function `multipliable` that will take three STRING arguments, two will represent alphabetical letters A...Z and the last one a result. Example: `('AB', 'AB', '100')`, Each letter represents unique single-digit number 0...9. You will need to return `true` or `false` depending on whether multiplying those composed numbers will give you a result.
 
 For example,
 ```
